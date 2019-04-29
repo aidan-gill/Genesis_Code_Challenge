@@ -9,7 +9,9 @@ using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using CustomControlInGrid;
 
-namespace Genisis_Code_Project{
+//Aidan Gill April 2019
+//Control to show the Customer Name which is the First Name and Last Name joined
+namespace Genesis_Code_Project{
     public partial class MyUserControl : XtraUserControl, IEditValue {
         public MyUserControl() {
             InitializeComponent();
@@ -26,5 +28,6 @@ namespace Genisis_Code_Project{
                 }
             }
         }
+        public event EventHandler EditValueChanged;
     }
 }

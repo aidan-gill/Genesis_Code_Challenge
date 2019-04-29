@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraGrid;
 
-namespace Genisis_Code_Project
+namespace Genesis_Code_Project
 {
     
     public partial class frmView_Customer_Screen : Form
@@ -61,7 +61,7 @@ namespace Genisis_Code_Project
             {
 
                 string message = ex.Message + "\n   ::::::::::::: \n" + ex.StackTrace;
-                MessageBox.Show(message, "Genesis - Init ", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show(message, "Genesis - frmView_Customer_Screen ", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }	
         }
 
