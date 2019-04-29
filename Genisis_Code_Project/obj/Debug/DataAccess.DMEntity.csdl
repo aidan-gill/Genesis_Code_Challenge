@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OrderModel" Alias="Self" d4p1:ViewGeneration="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:devart="http://devart.com/schemas/edml/ConceptualSchemaExtensions/1.0" xmlns:ed="http://devart.com/schemas/EntityDeveloper/1.0" annotation:UseStrongSpatialTypes="false" xmlns:d4p1="http://devart.com/schemas/edml/ConceptualSchemaExtensions/1.0" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="OrderEntities" annotation:LazyLoadingEnabled="true" ed:Guid="812f3d5d-4a10-4341-8f0a-f94907dae19e">
+    <EntitySet Name="Customers" EntityType="OrderModel.Customer" />
+    <EntitySet Name="Orders" EntityType="OrderModel.Order" />
+    <AssociationSet Name="FK_Order_CustomerSet" Association="OrderModel.FK_Order_Customer">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Customer" ed:Guid="166c5ab8-141a-477e-b08a-9c078b7a6c1f">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" ed:ValidateRequired="true" ed:Guid="8b79a63c-c8d7-4eea-8b43-bcd680318d7b" />
+    <Property Name="FirstName" Type="String" Nullable="false" MaxLength="50" Unicode="true" ed:ValidateMaxLength="50" ed:ValidateRequired="true" ed:Guid="c8a43f5e-ecfa-41ea-8900-aef151e6c1a5" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="50" Unicode="true" ed:ValidateMaxLength="50" ed:ValidateRequired="true" ed:Guid="3d2c4a8c-6510-490d-bfaf-18d9c9d3abe3" />
+    <NavigationProperty Name="Orders" Relationship="OrderModel.FK_Order_Customer" FromRole="Customer" ToRole="Orders" ed:Guid="330d5d49-8f97-48ea-849a-5040da9fa3eb" />
+  </EntityType>
+  <EntityType Name="Order" ed:Guid="96e88c92-810e-4ab3-ac95-32b2b1618f79">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" ed:ValidateRequired="true" ed:Guid="741d33bd-d93e-458a-ad9e-3d8af2e45ff4" />
+    <Property Name="CustomerId" Type="Guid" Nullable="false" ed:ValidateRequired="true" ed:Guid="e2ad3217-47dc-4b21-9fc0-8299c4c9b381" />
+    <Property Name="ReferenceNumber" Type="String" Nullable="false" MaxLength="50" Unicode="true" ed:ValidateMaxLength="50" ed:ValidateRequired="true" ed:Guid="8aff8b38-dde5-42e2-ab27-62a3baf46806" />
+    <Property Name="OrderValue" Type="Decimal" Nullable="false" Precision="18" Scale="7" ed:ValidateRequired="true" ed:Guid="a183d164-5a72-4c90-b5b3-cb4b3967587e" />
+    <Property Name="OrderDate" Type="DateTime" Nullable="false" ed:ValidateRequired="true" ed:Guid="544ed855-d72f-4f60-80bb-bb6b4a13bf76" />
+    <NavigationProperty Name="Customer" Relationship="OrderModel.FK_Order_Customer" FromRole="Orders" ToRole="Customer" ed:Guid="17c7733c-42bb-4888-98d6-fce8ac6cd9e7" />
+  </EntityType>
+  <Association Name="FK_Order_Customer" ed:Guid="a6d4caee-ddc8-49a8-8b04-a2a9ce8cd1d0">
+    <End Role="Customer" Type="OrderModel.Customer" Multiplicity="1" />
+    <End Role="Orders" Type="OrderModel.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

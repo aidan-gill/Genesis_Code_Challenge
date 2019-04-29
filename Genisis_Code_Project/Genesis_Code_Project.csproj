@@ -7,8 +7,8 @@
     <ProjectGuid>{15061C96-88B5-4EA4-9FA0-AD590EC3C128}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Genisis_Code_Project</RootNamespace>
-    <AssemblyName>Genisis_Code_Project</AssemblyName>
+    <RootNamespace>Genesis_Code_Project</RootNamespace>
+    <AssemblyName>Genesis_Code_Project</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -48,7 +48,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Genisis_Code_Project.Program</StartupObject>
+    <StartupObject>
+    </StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DevExpress.BonusSkins.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
@@ -188,7 +189,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="ClassDiagram1.cd" />
     <None Include="DataAccess\DMEntity.csdl" />
     <None Include="DataAccess\DMEntity.Diagram1.view">
       <DependentUpon>DMEntity.edml</DependentUpon>
@@ -202,6 +202,7 @@
     </None>
     <None Include="DataAccess\DMEntity.msl" />
     <None Include="DataAccess\DMEntity.ssdl" />
+    <None Include="Documentation\Genesis_Desktop_Developer_Challenge_WinForms.docx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -229,6 +230,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Debug\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DatabaseFiles\Create_Database.sql" />
+    <Content Include="DatabaseFiles\Genesis_Desktop_Developer_Table_Create.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

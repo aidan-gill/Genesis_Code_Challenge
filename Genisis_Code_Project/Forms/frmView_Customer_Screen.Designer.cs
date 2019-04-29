@@ -1,4 +1,4 @@
-﻿namespace Genisis_Code_Project
+﻿namespace Genesis_Code_Project
 {
     partial class frmView_Customer_Screen
     {

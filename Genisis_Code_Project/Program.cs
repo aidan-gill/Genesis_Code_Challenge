@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Genisis_Code_Project
+namespace Genesis_Code_Project
 {
     static class Program
     {

@@ -1,4 +1,4 @@
-﻿namespace Genisis_Code_Project
+﻿namespace Genesis_Code_Project
 {
     partial class frmOrder_Screen
     {
@@ -184,7 +184,7 @@
             this.colEdit.AppearanceCell.Image = ((System.Drawing.Image)(resources.GetObject("colEdit.AppearanceCell.Image")));
             this.colEdit.AppearanceCell.Options.HighPriority = true;
             this.colEdit.AppearanceCell.Options.UseImage = true;
-            this.colEdit.Caption = "Edit";
+            this.colEdit.Caption = "View";
             this.colEdit.ColumnEdit = this.btnViewCustomer;
             this.colEdit.Name = "colEdit";
             this.colEdit.ShowButtonMode = DevExpress.XtraGrid.Views.Base.ShowButtonModeEnum.ShowAlways;
