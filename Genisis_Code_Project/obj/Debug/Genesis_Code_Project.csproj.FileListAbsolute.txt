@@ -1,10 +1,10 @@
+C:\Work\Genesis_Code_Challenge-master\Genesis_Code_Challenge-master\Genisis_Code_Project\bin\Debug\DevExpress.Utils.v17.2.dll
 C:\Work\Genesis_Code_Challenge-master\Genesis_Code_Challenge-master\Genisis_Code_Project\bin\Debug\Genesis_Code_Project.exe.config
 C:\Work\Genesis_Code_Challenge-master\Genesis_Code_Challenge-master\Genisis_Code_Project\bin\Debug\Genesis_Code_Project.exe
 C:\Work\Genesis_Code_Challenge-master\Genesis_Code_Challenge-master\Genisis_Code_Project\bin\Debug\Genesis_Code_Project.pdb
 C:\Work\Genesis_Code_Challenge-master\Genesis_Code_Challenge-master\Genisis_Code_Project\bin\Debug\DevExpress.Data.v17.2.dll
 C:\Work\Genesis_Code_Challenge-master\Genesis_Code_Challenge-master\Genisis_Code_Project\bin\Debug\DevExpress.PivotGrid.v17.2.Core.dll
 C:\Work\Genesis_Code_Challenge-master\Genesis_Code_Challenge-master\Genisis_Code_Project\bin\Debug\DevExpress.Printing.v17.2.Core.dll
-C:\Work\Genesis_Code_Challenge-master\Genesis_Code_Challenge-master\Genisis_Code_Project\bin\Debug\DevExpress.Utils.v17.2.dll
 C:\Work\Genesis_Code_Challenge-master\Genesis_Code_Challenge-master\Genisis_Code_Project\bin\Debug\DevExpress.XtraEditors.v17.2.dll
 C:\Work\Genesis_Code_Challenge-master\Genesis_Code_Challenge-master\Genisis_Code_Project\bin\Debug\DevExpress.XtraLayout.v17.2.dll
 C:\Work\Genesis_Code_Challenge-master\Genesis_Code_Challenge-master\Genisis_Code_Project\bin\Debug\DevExpress.XtraPivotGrid.v17.2.dll
@@ -60,6 +60,7 @@ C:\Work\Genesis_Code_Challenge-master\Genesis_Code_Challenge-master\Genisis_Code
 C:\Work\Genesis_Code_Challenge-master\Genesis_Code_Challenge-master\Genisis_Code_Project\obj\Debug\DataAccess.DMEntity.ssdl
 C:\Work\Genesis_Code_Challenge-master\Genesis_Code_Challenge-master\Genisis_Code_Project\obj\Debug\DataAccess.DMEntity.csdl
 C:\Work\Genesis_Code_Challenge-master\Genesis_Code_Challenge-master\Genisis_Code_Project\obj\Debug\DataAccess.DMEntity.msl
+C:\Work\Genesis_Code_Challenge-master\Genesis_Code_Challenge-master\Genisis_Code_Project\obj\Debug\Genesis_Code_Project.csprojResolveAssemblyReference.cache
 C:\Work\Genesis_Code_Challenge-master\Genesis_Code_Challenge-master\Genisis_Code_Project\obj\Debug\Genesis_Code_Project.frmOrder_Screen.resources
 C:\Work\Genesis_Code_Challenge-master\Genesis_Code_Challenge-master\Genisis_Code_Project\obj\Debug\Genesis_Code_Project.frmView_Customer_Screen.resources
 C:\Work\Genesis_Code_Challenge-master\Genesis_Code_Challenge-master\Genisis_Code_Project\obj\Debug\Genesis_Code_Project.MyUserControl.resources
@@ -68,4 +69,3 @@ C:\Work\Genesis_Code_Challenge-master\Genesis_Code_Challenge-master\Genisis_Code
 C:\Work\Genesis_Code_Challenge-master\Genesis_Code_Challenge-master\Genisis_Code_Project\obj\Debug\Genesis_Code_Project.exe.licenses
 C:\Work\Genesis_Code_Challenge-master\Genesis_Code_Challenge-master\Genisis_Code_Project\obj\Debug\Genesis_Code_Project.exe
 C:\Work\Genesis_Code_Challenge-master\Genesis_Code_Challenge-master\Genisis_Code_Project\obj\Debug\Genesis_Code_Project.pdb
-C:\Work\Genesis_Code_Challenge-master\Genesis_Code_Challenge-master\Genisis_Code_Project\obj\Debug\Genesis_Code_Project.csprojResolveAssemblyReference.cache
